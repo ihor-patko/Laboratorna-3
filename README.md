@@ -1,5 +1,6 @@
 # Laboratorna-3
 It is the code of the Laboratorna Robota №3.
+
 Write a function that gets the start and end numbers of the range and should return the number of all numbers except those containing 5.
 The start and end numbers are inclusive!
 Examples: 1.9 -> 1,2,3,4,6,7,8,9 => 8
