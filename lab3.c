@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void func(){
+void displayNumbers(){
      int a,b;
      int * pA = &a;
      int * pB = &b;
@@ -38,5 +38,5 @@ void func(){
 
 int main() 
 {
-    func();
+    displayNumbers();
 }
