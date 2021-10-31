@@ -5,6 +5,7 @@ void func(){
      int a,b;
      int * pA = &a;
      int * pB = &b;
+     printf("Chyslo maye buty menshe nizh 2095000!\n");
      printf("Vvedit` pershe chyslo: ");
      scanf("%d",pA); 
      printf("Vvedit` druhe chyslo: ");
@@ -15,7 +16,6 @@ void func(){
      if ( *pB > *pA)
         {
          arr[*pA] = *pA;
-         // Chyslo maye buty menshe nizh 2095000
          arr[*pB] = *pB;
          for (int i = 1 ; *pA <= *pB ; *pA += i)
          {
